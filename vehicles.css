@@ -190,13 +190,12 @@ section{
 /*    backdrop-filter: blur(5px);*/
 /*}*/
 
-.page2 .card {
+.page2 .relative {
     position: relative;
     height: 70%;
     width: 30%;
     display: flex;
     flex-direction: column;
-    /*justify-content: space-around;*/
     align-items: center;
 }
 
@@ -244,9 +243,15 @@ section{
     transform: scale(1.08);
 }
 .page2 .absolute{
+    height: 70%;
+    width: 30%;
     background: transparent;
     position: absolute;
     z-index: 1;
+    bottom: 0;
+}
+.page2 .absolute .img{
+    position: absolute;
     bottom: 0;
 }
 
