@@ -52,6 +52,31 @@ nav ul li a:hover{
     opacity: 100;
 }
 
+.page0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    top: 5vh;
+    left: 5vw;
+    margin: 10px 0;
+    background: radial-gradient(circle at center 50%, red 0, black 70%);
+}
+
+.page0 .img{
+    height: 40%;
+    width: 50%;
+}
+
+.page0 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
 .page2{
     position: relative;
     width: 90vw;
